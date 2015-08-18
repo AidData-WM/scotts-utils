@@ -1,0 +1,654 @@
+{
+  "name": "nigeria_dad_geocoded_research_release_level_1_v1.0.1", 
+  "datapackage_version": "1.0-beta.10", 
+  "title": "Nigeria DADGeocoded Research Release", 
+  "version": "1.0.1", 
+  "licenses": [
+    {
+      "url": "http://opendatacommons.org/licenses/by/", 
+      "version": "1.0", 
+      "name": "Open Data Commons Attribution", 
+      "id": "odc-pddl"
+    }
+  ], 
+  "sources": [
+    {
+      "web": "Not Available", 
+      "name": "Nigeria DAD"
+    }
+  ], 
+  "maintainers": [
+    {
+      "web": "http://aiddata.org", 
+      "name": "AidData Data Team", 
+      "email": "data@aiddata.org"
+    }
+  ], 
+  "publishers": [
+    {
+      "web": "http://aiddata.org", 
+      "name": "AidData", 
+      "email": "info@aiddata.org"
+    }
+  ], 
+  "temporal": [
+    {
+      "start": 1988, 
+      "end": 2014, 
+      "name": "Start Date Coverage"
+    }
+  ], 
+  "resources": [
+    {
+      "name": "projects.tsv", 
+      "path": "../data/projects.tsv", 
+      "bytes": 145429, 
+      "schema": {
+        "fields": [
+          {
+            "type": "int", 
+            "name": "is_geocoded"
+          }, 
+          {
+            "type": "string", 
+            "name": "end_actual_type"
+          }, 
+          {
+            "type": "date", 
+            "name": "start_actual_isodate"
+          }, 
+          {
+            "type": "string", 
+            "name": "start_actual_type"
+          }, 
+          {
+            "type": "string", 
+            "name": "donors"
+          }, 
+          {
+            "type": "string", 
+            "name": "ad_sector_names"
+          }, 
+          {
+            "type": "float", 
+            "name": "total_disbursements"
+          }, 
+          {
+            "type": "string", 
+            "name": "status"
+          }, 
+          {
+            "type": "string", 
+            "name": "donors_iso3"
+          }, 
+          {
+            "type": "string", 
+            "name": "ad_sector_codes"
+          }, 
+          {
+            "type": "float", 
+            "name": "total_commitments"
+          }, 
+          {
+            "type": "string", 
+            "name": "project_id"
+          }, 
+          {
+            "type": "date", 
+            "name": "end_actual_isodate"
+          }, 
+          {
+            "type": "string", 
+            "name": "project_title"
+          }
+        ]
+      }
+    }, 
+    {
+      "name": "locations.tsv", 
+      "path": "../data/locations.tsv", 
+      "bytes": 236538, 
+      "schema": {
+        "fields": [
+          {
+            "type": "string", 
+            "name": "gazetteer_adm_code"
+          }, 
+          {
+            "type": "string", 
+            "name": "location_type_name"
+          }, 
+          {
+            "type": "float", 
+            "name": "longitude"
+          }, 
+          {
+            "type": "int", 
+            "name": "geoname_id"
+          }, 
+          {
+            "type": "string", 
+            "name": "gazetteer_adm_name"
+          }, 
+          {
+            "type": "string", 
+            "name": "project_location_id"
+          }, 
+          {
+            "type": "string", 
+            "name": "location_type_code"
+          }, 
+          {
+            "type": "float", 
+            "name": "latitude"
+          }, 
+          {
+            "type": "string", 
+            "name": "project_id"
+          }, 
+          {
+            "type": "int", 
+            "name": "precision_code"
+          }, 
+          {
+            "type": "string", 
+            "name": "place_name"
+          }
+        ]
+      }
+    }, 
+    {
+      "name": "transactions.tsv", 
+      "path": "../data/transactions.tsv", 
+      "bytes": 99363, 
+      "schema": {
+        "fields": [
+          {
+            "type": "int", 
+            "name": "transaction_year"
+          }, 
+          {
+            "type": "blank", 
+            "name": "transaction_isodate"
+          }, 
+          {
+            "type": "float", 
+            "name": "transaction_value"
+          }, 
+          {
+            "type": "string", 
+            "name": "transaction_currency"
+          }, 
+          {
+            "type": "string", 
+            "name": "project_id"
+          }, 
+          {
+            "type": "string", 
+            "name": "transaction_value_code"
+          }, 
+          {
+            "type": "string", 
+            "name": "transaction_id"
+          }
+        ]
+      }
+    }
+  ], 
+  "data_set_preamble": "Nigeria_DAD", 
+  "data_type": "Geocoded_Research_Release", 
+  "processing_level": "Level_1", 
+  "source_type": "Recipient System", 
+  "source_subtype": "Development Assistance Database", 
+  "source_link": "Not Available", 
+  "date_updated": "08/12/15", 
+  "donors_iso": [
+    {
+      "name": "DAC|GBR"
+    }, 
+    {
+      "name": "GBR|DAC"
+    }, 
+    {
+      "name": "USA"
+    }, 
+    {
+      "name": "DAC"
+    }, 
+    {
+      "name": "ESP"
+    }, 
+    {
+      "name": "DAC|NOR"
+    }, 
+    {
+      "name": "DAC|FRA|GBR|AUT"
+    }, 
+    {
+      "name": "SWE"
+    }, 
+    {
+      "name": "DEU"
+    }, 
+    {
+      "name": "ITA"
+    }, 
+    {
+      "name": "DAC|DAC"
+    }, 
+    {
+      "name": "GBR"
+    }, 
+    {
+      "name": "NLD"
+    }, 
+    {
+      "name": "CHE|SWE"
+    }, 
+    {
+      "name": "JPN"
+    }, 
+    {
+      "name": "NLD|CHE|SWE"
+    }, 
+    {
+      "name": "CAN"
+    }
+  ], 
+  "donors_list": [
+    {
+      "name": "Canada"
+    }, 
+    {
+      "name": "United Kingdom (DFID)|UNDP"
+    }, 
+    {
+      "name": "US Government"
+    }, 
+    {
+      "name": "UK Government"
+    }, 
+    {
+      "name": "JICA - Japan International Cooperation Agency"
+    }, 
+    {
+      "name": "Unspecified"
+    }, 
+    {
+      "name": "UNDP"
+    }, 
+    {
+      "name": "European Commission"
+    }, 
+    {
+      "name": "Oxfam"
+    }, 
+    {
+      "name": "European Commission|France|UK Government|Austria"
+    }, 
+    {
+      "name": "Italy"
+    }, 
+    {
+      "name": "Bill & Melinda Gates Foundation"
+    }, 
+    {
+      "name": "AFD"
+    }, 
+    {
+      "name": "BMZ"
+    }, 
+    {
+      "name": "Food & Agriculture Organisation (FAO)"
+    }, 
+    {
+      "name": "Spain"
+    }, 
+    {
+      "name": "Netherlands"
+    }, 
+    {
+      "name": "World Health Organisation (WHO)|European Commission"
+    }, 
+    {
+      "name": "UNFPA"
+    }, 
+    {
+      "name": "United Nations Office on Drugs & Crime (UNODC)"
+    }, 
+    {
+      "name": "Sweden"
+    }, 
+    {
+      "name": "Switzerland|Sweden"
+    }, 
+    {
+      "name": "World Bank"
+    }, 
+    {
+      "name": "UNICEF"
+    }, 
+    {
+      "name": "AFDB"
+    }, 
+    {
+      "name": "United Nations Office for Project Services (UNOPS)"
+    }, 
+    {
+      "name": "UNDP|Norway"
+    }, 
+    {
+      "name": "Netherlands|Switzerland|Sweden"
+    }, 
+    {
+      "name": "United Nations Office on Drugs & Crime (UNODC)|UK Government"
+    }, 
+    {
+      "name": "United Kingdom (DFID)"
+    }
+  ], 
+  "sectors_codes_list": [
+    {
+      "name": "99810|33100"
+    }, 
+    {
+      "name": "15140"
+    }, 
+    {
+      "name": "99810|51010"
+    }, 
+    {
+      "name": "31100|33100|23000"
+    }, 
+    {
+      "name": "31100|99810"
+    }, 
+    {
+      "name": "15100|99810|91010"
+    }, 
+    {
+      "name": "23000|15100"
+    }, 
+    {
+      "name": "33100|51010|15120"
+    }, 
+    {
+      "name": "15120|15100"
+    }, 
+    {
+      "name": "15120"
+    }, 
+    {
+      "name": "15100"
+    }, 
+    {
+      "name": "15100|12100"
+    }, 
+    {
+      "name": "24000"
+    }, 
+    {
+      "name": "16010"
+    }, 
+    {
+      "name": "31100|12100|24000"
+    }, 
+    {
+      "name": "15100|15150|51010"
+    }, 
+    {
+      "name": "23000|42010|12100"
+    }, 
+    {
+      "name": "15100|22030|99810"
+    }, 
+    {
+      "name": "11000|99810"
+    }, 
+    {
+      "name": "15100|15120"
+    }, 
+    {
+      "name": "31100"
+    }, 
+    {
+      "name": "99810|12220"
+    }, 
+    {
+      "name": "23000|51010|15120"
+    }, 
+    {
+      "name": "15140|15150|23000|12220"
+    }, 
+    {
+      "name": "15150"
+    }, 
+    {
+      "name": "12220"
+    }, 
+    {
+      "name": "16010|42010"
+    }, 
+    {
+      "name": "14000"
+    }, 
+    {
+      "name": "99810|14000"
+    }, 
+    {
+      "name": "12100|23000|51010"
+    }, 
+    {
+      "name": "91010"
+    }, 
+    {
+      "name": "15100|15120|99810"
+    }, 
+    {
+      "name": "12100|99810"
+    }, 
+    {
+      "name": "15130"
+    }, 
+    {
+      "name": "15100|99810"
+    }, 
+    {
+      "name": "33100"
+    }, 
+    {
+      "name": "11000"
+    }, 
+    {
+      "name": "99810"
+    }, 
+    {
+      "name": "23000|31100|12100"
+    }, 
+    {
+      "name": "12100"
+    }, 
+    {
+      "name": "51010"
+    }, 
+    {
+      "name": "14000|15100|15140|12100"
+    }, 
+    {
+      "name": "15120|15100|15130|15150"
+    }, 
+    {
+      "name": "15150|23000"
+    }, 
+    {
+      "name": "24000|99810"
+    }, 
+    {
+      "name": "42010"
+    }, 
+    {
+      "name": "23000"
+    }, 
+    {
+      "name": "13010"
+    }, 
+    {
+      "name": "15120|15150|15100|42010|15150"
+    }, 
+    {
+      "name": "24000|11000|15120"
+    }
+  ], 
+  "sectors_names_list": [
+    {
+      "name": "Energy generation and supply, combinations of activities "
+    }, 
+    {
+      "name": "Government and civil society, general, combination of activities |Health, general, combinations of activities "
+    }, 
+    {
+      "name": "Trade policy and regulations, combination of purposes "
+    }, 
+    {
+      "name": "Sectors not specified |Water supply and sanitation, combination of purposes "
+    }, 
+    {
+      "name": "Administrative costs "
+    }, 
+    {
+      "name": "Agriculture, combinations of purposes in agriculture, agro-industry, agribusiness "
+    }, 
+    {
+      "name": "Public sector financial management |Government and civil society, general, combination of activities |Legal and judicial development |Strengthening civil society "
+    }, 
+    {
+      "name": "Population policy and administrative management "
+    }, 
+    {
+      "name": "Government and civil society, general, combination of activities |Radio/television/print media |Sectors not specified "
+    }, 
+    {
+      "name": "Government and civil society, general, combination of activities |Public sector financial management "
+    }, 
+    {
+      "name": "Public sector financial management "
+    }, 
+    {
+      "name": "Social/ welfare services "
+    }, 
+    {
+      "name": "Government administration |Strengthening civil society |Energy generation and supply, combinations of activities |Basic health care "
+    }, 
+    {
+      "name": "Government administration "
+    }, 
+    {
+      "name": "Sectors not specified |Basic health care "
+    }, 
+    {
+      "name": "Water supply and sanitation, combination of purposes |Government and civil society, general, combination of activities |Government administration |Health, general, combinations of activities "
+    }, 
+    {
+      "name": "Trade policy and regulations, combination of purposes |General budget support |Public sector financial management "
+    }, 
+    {
+      "name": "Water supply and sanitation, combination of purposes "
+    }, 
+    {
+      "name": "Strengthening civil society |Energy generation and supply, combinations of activities "
+    }, 
+    {
+      "name": "Women in development "
+    }, 
+    {
+      "name": "Energy generation and supply, combinations of activities |General budget support |Public sector financial management "
+    }, 
+    {
+      "name": "Social/ welfare services |Women in development "
+    }, 
+    {
+      "name": "Legal and judicial development "
+    }, 
+    {
+      "name": "General budget support "
+    }, 
+    {
+      "name": "Basic health care "
+    }, 
+    {
+      "name": "Banking and financial services, combinations of activities "
+    }, 
+    {
+      "name": "Government and civil society, general, combination of activities |Strengthening civil society |General budget support "
+    }, 
+    {
+      "name": "Sectors not specified "
+    }, 
+    {
+      "name": "Government and civil society, general, combination of activities "
+    }, 
+    {
+      "name": "Sectors not specified |General budget support "
+    }, 
+    {
+      "name": "Energy generation and supply, combinations of activities |Agriculture, combinations of purposes in agriculture, agro-industry, agribusiness |Health, general, combinations of activities "
+    }, 
+    {
+      "name": "Energy generation and supply, combinations of activities |Women in development |Health, general, combinations of activities "
+    }, 
+    {
+      "name": "Agriculture, combinations of purposes in agriculture, agro-industry, agribusiness |Health, general, combinations of activities |Banking and financial services, combinations of activities "
+    }, 
+    {
+      "name": "Agriculture, combinations of purposes in agriculture, agro-industry, agribusiness |Sectors not specified "
+    }, 
+    {
+      "name": "Strengthening civil society "
+    }, 
+    {
+      "name": "Health, general, combinations of activities "
+    }, 
+    {
+      "name": "Government and civil society, general, combination of activities |Public sector financial management |Sectors not specified "
+    }, 
+    {
+      "name": "Government and civil society, general, combination of activities |Sectors not specified "
+    }, 
+    {
+      "name": "Agriculture, combinations of purposes in agriculture, agro-industry, agribusiness |Trade policy and regulations, combination of purposes |Energy generation and supply, combinations of activities "
+    }, 
+    {
+      "name": "Education, combinations of purposes |Sectors not specified "
+    }, 
+    {
+      "name": "Health, general, combinations of activities |Energy generation and supply, combinations of activities |General budget support "
+    }, 
+    {
+      "name": "Energy generation and supply, combinations of activities |Government and civil society, general, combination of activities "
+    }, 
+    {
+      "name": "Banking and financial services, combinations of activities |Sectors not specified "
+    }, 
+    {
+      "name": "Sectors not specified |Trade policy and regulations, combination of purposes "
+    }, 
+    {
+      "name": "Banking and financial services, combinations of activities |Education, combinations of purposes |Public sector financial management "
+    }, 
+    {
+      "name": "Public sector financial management |Strengthening civil society |Government and civil society, general, combination of activities |Women in development |Strengthening civil society "
+    }, 
+    {
+      "name": "Government and civil society, general, combination of activities |Sectors not specified |Administrative costs "
+    }, 
+    {
+      "name": "Education, combinations of purposes "
+    }, 
+    {
+      "name": "Public sector financial management |Government and civil society, general, combination of activities "
+    }, 
+    {
+      "name": "Health, general, combinations of activities |Sectors not specified "
+    }
+  ]
+}
